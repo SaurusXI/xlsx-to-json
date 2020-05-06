@@ -4,7 +4,7 @@ A simple command line utility to convert excel sheets into JSON files.
 
 ## Conversion rules
 Say that the desired JSON has the following structure:
-```json
+```
     "foo": {
         "bar": {
             "field3": {
@@ -27,6 +27,8 @@ Therefore this excel sheet
 |-----------|------------------------------|------------------------|
 | 1 .00     | terminal value               | another terminal value |
 | val2      |                              |                        |
+
+
 Generates the following file:
 ```json
 [
@@ -51,13 +53,13 @@ Generates the following file:
 ## Usage
 Python and its modules must be on your PATH. The CLI can be used as follows:
 ```bash
-xlsx-to-json path/to/excel_sheet path/to/output.json
+xlsx_to_json path/to/excel_sheet path/to/output.json
 ```
 ### Installation
 
 The package is available on PyPi. Simply do -
 ```sh
-pip install xlsx-to-json
+pip install xlsx_to_json
 ```
 License
 ----
