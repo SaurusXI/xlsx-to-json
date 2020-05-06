@@ -2,6 +2,7 @@ import pandas as pd
 import copy
 from pprint import pprint
 from .str_wrapper import strf
+from ast import literal_eval
 
 class Converter:
     def __init__(self, fstream):
@@ -34,7 +35,10 @@ class Converter:
             if pd.isna(val):
                 continue
             if isinstance(val, str):
-                val = strf(val)
+                if val[0] == '[' and val[-1] == ']':
+                    val = literal_eval(val)
+                else:
+                    val = strf(val)
             vals.update({jp_no: val})
 
             jpath = col.split('__')
