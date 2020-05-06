@@ -1,0 +1,3 @@
+[console_scripts]
+excel2json = excel2json.__main__:main
+

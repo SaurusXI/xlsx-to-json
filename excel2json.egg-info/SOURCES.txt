@@ -1,0 +1,10 @@
+setup.py
+excel2json/__init__.py
+excel2json/__main__.py
+excel2json/converter.py
+excel2json/str_wrapper.py
+excel2json.egg-info/PKG-INFO
+excel2json.egg-info/SOURCES.txt
+excel2json.egg-info/dependency_links.txt
+excel2json.egg-info/entry_points.txt
+excel2json.egg-info/top_level.txt
