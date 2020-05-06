@@ -8,8 +8,8 @@ setup(
     description = 'Convert a single Excel sheet to JSON',
     author = 'SaurusXI',
     author_email = 'vermashantanu@hotmail.com',
-    url = '',
-    download_url = '',
+    url = 'https://github.com/SaurusXI/xlsx-to-json',
+    download_url = 'https://github.com/SaurusXI/xlsx-to-json/archive/0.1.0.tar.gz',
     keywords = ['EXCEL', 'JSON', 'CONVERT'],
     install_requires=[
         'pandas'
