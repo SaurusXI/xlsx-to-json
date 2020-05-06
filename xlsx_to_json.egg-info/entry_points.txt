@@ -1,0 +1,3 @@
+[console_scripts]
+xlsx_to_json = xlsx_to_json.__main__:main
+

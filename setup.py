@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name = 'xlsx-to-json',
+    name = 'xlsx_to_json',
     version = '0.1.0',
-    packages = ['xlsx-to-json'],
+    packages = ['xlsx_to_json'],
     license = 'MIT',
     description = 'Convert a single Excel sheet to JSON',
     author = 'SaurusXI',
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points = {
         'console_scripts': [
-            'xlsx-to-json = xlsx-to-json.__main__:main'
+            'xlsx_to_json = xlsx_to_json.__main__:main'
         ]
     },
     classifiers=[

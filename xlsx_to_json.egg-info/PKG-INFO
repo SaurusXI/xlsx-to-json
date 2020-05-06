@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: xlsx-to-json
+Version: 0.1.0
+Summary: Convert a single Excel sheet to JSON
+Home-page: UNKNOWN
+Author: SaurusXI
+Author-email: vermashantanu@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: EXCEL,JSON,CONVERT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

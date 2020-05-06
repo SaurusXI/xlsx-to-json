@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+xlsx_to_json/__init__.py
+xlsx_to_json/__main__.py
+xlsx_to_json/converter.py
+xlsx_to_json/str_wrapper.py
+xlsx_to_json.egg-info/PKG-INFO
+xlsx_to_json.egg-info/SOURCES.txt
+xlsx_to_json.egg-info/dependency_links.txt
+xlsx_to_json.egg-info/entry_points.txt
+xlsx_to_json.egg-info/requires.txt
+xlsx_to_json.egg-info/top_level.txt
