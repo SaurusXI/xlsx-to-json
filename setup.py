@@ -2,14 +2,14 @@ from setuptools import setup
 
 setup(
     name = 'xlsx_to_json',
-    version = '0.1.3',
+    version = '0.1.4',
     packages = ['xlsx_to_json'],
     license = 'MIT',
     description = 'Convert a single Excel sheet to JSON',
     author = 'SaurusXI',
     author_email = 'vermashantanu@hotmail.com',
     url = 'https://github.com/SaurusXI/xlsx-to-json',
-    download_url = 'https://github.com/SaurusXI/xlsx-to-json/archive/0.1.3.tar.gz',
+    download_url = 'https://github.com/SaurusXI/xlsx-to-json/archive/0.1.4.tar.gz',
     keywords = ['EXCEL', 'JSON', 'CONVERT'],
     install_requires=[
         'pandas',

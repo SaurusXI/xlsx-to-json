@@ -3,6 +3,7 @@ import copy
 from pprint import pprint
 from .str_wrapper import strf
 from ast import literal_eval
+import json as js
 
 class Converter:
     def __init__(self, fstream):
@@ -17,10 +18,13 @@ class Converter:
             if node is None:
                 continue
             nodelist.append(node)
+
         if len(nodelist) == 1:
-            pprint(nodelist[0], self.fstream)
+            j = js.dumps(nodelist[0], indent=4)
+            print(j, file = self.fstream)
         else:
-            pprint(nodelist, self.fstream)
+            j = js.dumps(nodelist, indent=4)
+            print(j, file = self.fstream)
 
 
 
