@@ -20,10 +20,10 @@ class Converter:
             nodelist.append(node)
 
         if len(nodelist) == 1:
-            j = js.dumps(nodelist[0], indent=4)
+            j = js.dumps(nodelist[0], indent=4, ensure_ascii = False)
             print(j, file = self.fstream)
         else:
-            j = js.dumps(nodelist, indent=4)
+            j = js.dumps(nodelist, indent=4, ensure_ascii = False)
             print(j, file = self.fstream)
 
 
